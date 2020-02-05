@@ -55,8 +55,8 @@
     data () {
       return {
         items: [
-          { title: 'Home', href: 'https://mjavala.github.io/portfolio-landing-page/#/'},
-          { title: 'Projects', href: 'https://mjavala.github.io/portfolio-landing-page/#/projects'},
+          { title: 'Home', href: 'https://gallant-morse-2d604a.netlify.com/'},
+          { title: 'Projects', href: 'https://gallant-morse-2d604a.netlify.com/#/projects'},
         ],
         mini: true,
         show: true,
