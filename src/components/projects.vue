@@ -14,6 +14,7 @@
           :key="card.github"
           :cols="card.flex"
           md="4"
+          class="clients"
         >
           <v-card 
           class="cards"
@@ -92,6 +93,9 @@
 }
 
 /* Removing github link for sites without a repo */
+.clients{
+  z-index: 10;
+}
 
 div.col-md-4 > div:nth-child(1) > div:nth-child(2) > a:nth-child(3){
   display: none;

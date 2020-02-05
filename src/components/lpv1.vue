@@ -63,7 +63,7 @@
                 elevation="24"
                 class="cta-2 mx-2 black--text"
               >
-                <span><a href="https://github.com/Mjavala/portfolio-landing-page/raw/gh-pages/CV_Bravo_Jose.pdf">Resume</a></span>
+                <span><a href="https://github.com/Mjavala/portfolio/raw/master/public/CV_Bravo_Jose.pdf">Resume</a></span>
               </v-btn>
         </v-list>
     </div>
@@ -87,7 +87,7 @@ export default {
 </script>
 
 
-<style scoped>
+<style>
 
 /* DESKTOP LANDING PAGE STYLES */
    #landing-page {
@@ -109,6 +109,7 @@ export default {
   }
   .hello{
       filter: brightness(100%) !important;
+      z-index: 10;
   }
   .v-list{
       background: transparent !important;

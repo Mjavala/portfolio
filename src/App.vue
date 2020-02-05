@@ -4,6 +4,7 @@
      <navigation />
     <hamburger />
     <router-view></router-view>
+    <ParticlesJS />
   </v-app>
 </template>
 
@@ -11,9 +12,10 @@
 import hamburger from '@/components/hamburger'
 import loader from '@/components/loader'
 import navigation from '@/components/navigation'
+import ParticlesJS from './components/ParticlesJS'
 
 export default{
-  components: {navigation, hamburger, loader},
+  components: {navigation, hamburger, loader, ParticlesJS},
   data () {
     return {
       show: true
